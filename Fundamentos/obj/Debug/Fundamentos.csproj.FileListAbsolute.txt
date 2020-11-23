@@ -1,0 +1,12 @@
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\bin\Debug\Fundamentos.exe.config
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\bin\Debug\Fundamentos.exe
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\bin\Debug\Fundamentos.pdb
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form1.resources
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.Properties.Resources.resources
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.csproj.GenerateResource.cache
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.exe
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.pdb
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.FormConversion.resources
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.FormSumar.resources
+C:\Users\AlumnoMCSD\C#\Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form04CambiarForm.resources
