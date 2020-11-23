@@ -32,6 +32,7 @@ namespace Fundamentos
             verde = this.txtverde.Text;
             azul = this.txtazul.Text;
             this.BackColor = Color.FromArgb(int.Parse(rojo), int.Parse(verde), int.Parse(azul));
+            //this.BackColor = Color.FromArgb(155, Color.Gold);
         }
     }
 }
