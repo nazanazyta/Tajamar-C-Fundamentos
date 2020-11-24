@@ -19,7 +19,11 @@ namespace Fundamentos
             //Application.Run(new Form1());
             //Application.Run(new FormConversion());
             //Application.Run(new FormSumar());
-            Application.Run(new Form04CambiarForm());
+            //Application.Run(new Form04CambiarForm());
+            //Application.Run(new Form05MayorTresNumeros());
+            //Application.Run(new Form06DiaNacimiento());
+            //Application.Run(new Form07DateTime());
+            Application.Run(new Form08Char());
         }
     }
 }

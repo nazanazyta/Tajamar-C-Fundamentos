@@ -52,6 +52,30 @@
     <Compile Include="Form04CambiarForm.Designer.cs">
       <DependentUpon>Form04CambiarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form05MayorTresNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form05MayorTresNumeros.Designer.cs">
+      <DependentUpon>Form05MayorTresNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form06DiaNacimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form06DiaNacimiento.Designer.cs">
+      <DependentUpon>Form06DiaNacimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form07DateTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form07DateTime.Designer.cs">
+      <DependentUpon>Form07DateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08Char.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08Char.Designer.cs">
+      <DependentUpon>Form08Char.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +98,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form04CambiarForm.resx">
       <DependentUpon>Form04CambiarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form05MayorTresNumeros.resx">
+      <DependentUpon>Form05MayorTresNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form06DiaNacimiento.resx">
+      <DependentUpon>Form06DiaNacimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form07DateTime.resx">
+      <DependentUpon>Form07DateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08Char.resx">
+      <DependentUpon>Form08Char.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
