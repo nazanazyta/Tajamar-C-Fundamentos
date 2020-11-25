@@ -23,7 +23,13 @@ namespace Fundamentos
             //Application.Run(new Form05MayorTresNumeros());
             //Application.Run(new Form06DiaNacimiento());
             //Application.Run(new Form07DateTime());
-            Application.Run(new Form08Char());
+            //Application.Run(new Form08Char());
+            //Application.Run(new Form09ValidarMail());
+            //Application.Run(new Form10SumarNumerosString());
+            //Application.Run(new Form11ValidarIsbn());
+            //Application.Run(new Form12StringBuilder());
+            //Application.Run(new Form13ColeccionGrafica());
+            Application.Run(new Form14SeleccionMultipleListBox());
         }
     }
 }
