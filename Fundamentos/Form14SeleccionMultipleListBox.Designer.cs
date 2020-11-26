@@ -68,6 +68,7 @@
             this.btneliminar.TabIndex = 15;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btninsertar
             // 
@@ -139,7 +140,7 @@
             this.Controls.Add(this.lstelementos);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form14SeleccionMultipleListBox";
             this.Text = "Form14SeleccionMultipleListBox";
             this.ResumeLayout(false);

@@ -29,7 +29,11 @@ namespace Fundamentos
             //Application.Run(new Form11ValidarIsbn());
             //Application.Run(new Form12StringBuilder());
             //Application.Run(new Form13ColeccionGrafica());
-            Application.Run(new Form14SeleccionMultipleListBox());
+            //Application.Run(new Form14SeleccionMultipleListBox());
+            //Application.Run(new Form15ColeccionNumerosListBox());
+            //Application.Run(new Form16TiendaProductos());
+            //Application.Run(new Form17MetodoReferencia());
+            Application.Run(new Form18MetodosEventos());
         }
     }
 }

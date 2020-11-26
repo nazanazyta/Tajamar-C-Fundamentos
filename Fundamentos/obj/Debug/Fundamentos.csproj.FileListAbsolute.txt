@@ -49,3 +49,13 @@ C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamento
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form12StringBuilder.resources
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form13ColeccionGrafica.resources
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form14SeleccionMultipleListBox.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form09ValidarMail.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form10SumarNumerosString.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form11ValidarIsbn.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form12StringBuilder.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form13ColeccionGrafica.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form14SeleccionMultipleListBox.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form15ColeccionNumerosListBox.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form16TiendaProductos.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form17MetodoReferencia.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form18MetodosEventos.resources

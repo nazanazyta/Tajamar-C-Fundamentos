@@ -118,6 +118,30 @@
     <Compile Include="Form14SeleccionMultipleListBox.Designer.cs">
       <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form15ColeccionNumerosListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15ColeccionNumerosListBox.Designer.cs">
+      <DependentUpon>Form15ColeccionNumerosListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.Designer.cs">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.Designer.cs">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18MetodosEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18MetodosEventos.Designer.cs">
+      <DependentUpon>Form18MetodosEventos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +191,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form14SeleccionMultipleListBox.resx">
       <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15ColeccionNumerosListBox.resx">
+      <DependentUpon>Form15ColeccionNumerosListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16TiendaProductos.resx">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17MetodoReferencia.resx">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18MetodosEventos.resx">
+      <DependentUpon>Form18MetodosEventos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
