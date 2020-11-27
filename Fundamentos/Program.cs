@@ -33,7 +33,11 @@ namespace Fundamentos
             //Application.Run(new Form15ColeccionNumerosListBox());
             //Application.Run(new Form16TiendaProductos());
             //Application.Run(new Form17MetodoReferencia());
-            Application.Run(new Form18MetodosEventos());
+            //Application.Run(new Form18MetodosEventos());
+            //Application.Run(new Form19ColeccionesNOGraficas());
+            //Application.Run(new Form20MetodosEventosColecciones());
+            //Application.Run(new Form21SumarBotonesColeccion());
+            Application.Run(new Form22TablaMultiplicar());
         }
     }
 }

@@ -59,3 +59,11 @@ C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.F
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form16TiendaProductos.resources
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form17MetodoReferencia.resources
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form18MetodosEventos.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form15ColeccionNumerosListBox.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form16TiendaProductos.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form17MetodoReferencia.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form18MetodosEventos.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form19ColeccionesNOGraficas.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form20MetodosEventosColecciones.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form21SumarBotonesColeccion.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form22TablaMultiplicar.resources
