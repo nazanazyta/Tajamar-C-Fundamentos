@@ -67,3 +67,14 @@ C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamento
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form20MetodosEventosColecciones.resources
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form21SumarBotonesColeccion.resources
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form22TablaMultiplicar.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form19ColeccionesNOGraficas.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form20MetodosEventosColecciones.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form21SumarBotonesColeccion.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form22TablaMultiplicar.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form23TemperaturasAnuales.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form24ControlesEjecucion.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form25SorteoPrimitiva.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\bin\Debug\ProyectoClases.dll
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\bin\Debug\ProyectoClases.pdb
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form26PruebaClases.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.csproj.CopyComplete

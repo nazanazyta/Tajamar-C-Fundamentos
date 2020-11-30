@@ -20,24 +20,25 @@ namespace Fundamentos
             this.cajas = new List<TextBox>();
             foreach (Control control in this.groupBox1.Controls)
             {
-                this.cajas.Add((TextBox)control);
+                if (control is TextBox)
+                {
+                    this.cajas.Add((TextBox)control);
+                }
             }
+            this.cajas.Reverse();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             int num = int.Parse(this.txtnumero.Text);
-            //foreach (TextBox cajita in this.cajas)
-            //{
-
-            //}
-            for (int i = 0; i < this.cajas.Count; i++)
+            for (int i = 1; i <= this.cajas.Count; i++)
             {
-                //this.cajas[i].Text = (num * (i + 1)).ToString();
-                this.cajas[i].Text = i.ToString();
+                int multi = num * i;
+                //this.cajas[this.cajas.Count - i].Text = multi.ToString();
+                this.cajas[i - 1].Text = multi.ToString();
             }
+            this.txtnumero.SelectAll();
+            this.txtnumero.Focus();
         }
     }
-
-
 }

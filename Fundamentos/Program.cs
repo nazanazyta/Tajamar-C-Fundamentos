@@ -8,9 +8,6 @@ namespace Fundamentos
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
@@ -37,7 +34,11 @@ namespace Fundamentos
             //Application.Run(new Form19ColeccionesNOGraficas());
             //Application.Run(new Form20MetodosEventosColecciones());
             //Application.Run(new Form21SumarBotonesColeccion());
-            Application.Run(new Form22TablaMultiplicar());
+            //Application.Run(new Form22TablaMultiplicar());
+            //Application.Run(new Form23TemperaturasAnuales());
+            //Application.Run(new Form24ControlesEjecucion());
+            //Application.Run(new Form25SorteoPrimitiva());
+            Application.Run(new Form26PruebaClases());
         }
     }
 }
