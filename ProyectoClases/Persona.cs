@@ -1,19 +1,95 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ProyectoClases
 {
+    #region ENUMERACIONES
+    public enum TipoGenero
+    {
+        Masculino = 0, Femenino = 1
+    }
+
+    public enum Paises
+    {
+        España = 0, Inglaterra = 1, Francia = 2, Argentina = 3
+    }
+    #endregion
     //SI NO TIENE MODIFICADOR DE PRIVACIDAD
     //ES PRIVADO POR DEFECTO
     public class Persona
     {
+        #region CONSTRUCTOR
+        public Persona ()
+        {
+            Debug.WriteLine("Constructor Persona Vacío");
+        }
+
+        public Persona(int edad, String nombre, String ape)
+        {
+            Debug.WriteLine("Constructor Persona para cosas");
+        }
+
+        public Persona (String nombre, String apellidos)
+        {
+            Debug.WriteLine("Constructor PERSONA con parámetros");
+            this.Nombre = nombre;
+            this.Apellidos = apellidos;
+        }
+        #endregion
         #region PROPIEDADES
         //TODO LO QUE PONGAMOS AQUÍ, PODEMOS COLAPSAR
         //Y DESPLEGAR CON EL (-) DE LA IZQUIERDA
         //
+        private Direccion _Domicilio;
+        public Direccion Domicilio
+        {
+            get { return this._Domicilio; }
+            set { this._Domicilio = value; }
+        }
+        //HACEMOS UNA PROPIEDAD AUTOIMPLEMENTADA
+        public Direccion DomicilioVacaciones { get; set; }
+        
+        private TipoGenero _Genero;
+        public TipoGenero Genero
+        {
+            get { return this._Genero; }
+            set {
+                //DEBEMOS CONTROLAR SIEMPRE LOS VALORES
+                //DE LAS ENUMERACIONES PARA VER SI
+                //COINCIDEN CON NUESTRAS OPCIONES
+                if(value != TipoGenero.Femenino &&
+                   value != TipoGenero.Masculino)
+                {
+                    throw new Exception("Rango de Géneros no soportado");
+                }
+                this._Genero = value;
+            }
+        }
+
+        private Paises _Nacionalidad;
+        public Paises Nacionalidad
+        {
+            get { return this._Nacionalidad; }
+            set { this._Nacionalidad = value; }
+        }
+
+        //UNA PROPIEDAD INDIZADA CONTIENE MÚLTIPLES ELEMENTOS
+        //NECESITAMOS UN CAMPO PARA MANEJAR LA PROPIEDAD
+        //YO QUIERO CREAR UNA PROPIEDAD QUE CONTENGA ESPACIO
+        //PARA 5 DESCRIPCIONES DE LA PERSONA.
+        private String[] _Descripciones = new String[5];
+        //UNA PROPIEDAD INDIZADA NO TIENE name
+        //SE UTILIZA LA PALABRA this PARA CREARLA
+        public String this[int indice]
+        {
+            get { return this._Descripciones[indice]; }
+            set { this._Descripciones[indice] = value; }
+        }
+
         //CAMPOS DE LA CLASE
         //UN CAMPO SUELE SER PRIVADO Y HERRAMIENTA
         //PARA LA CLASE (ES UNA VARIABLE)
@@ -55,6 +131,14 @@ namespace ProyectoClases
             }
         }
 
+        private String _Apellidos;
+        
+        public String Apellidos
+        {
+            get { return this._Apellidos; }
+            set { this._Apellidos = value; }
+        }
+
         //CAMPO DE LA PROPIEDAD
         private int _Edad;
 
@@ -80,6 +164,38 @@ namespace ProyectoClases
                 }
             }
         }
+
+        #endregion
+
+        #region MÉTODOS de la clase
+        //MÉTODOS void Y MÉTODOS return
+        //MÉTODOS CON PARÁMETROS OPCIONALES
+        //public void MetodoParametrosOpcionales (int numero, int parametroopcional = 99) { }
+        //PARA LLAMARLO SE PODRÍA HACER DE ESTAS FORMAS:
+        //  * person.MetodoParametrosOpcionales(55);
+        //  * person.MetodoParametrosOpcionales(55, 44);
+        //  * person.MetodoParametrosOpcionales(55, parametroopcional: 66) --> Si tuviera varios
+        //    parámetros opcionales, para saber a cuál se refiere
+        //POLIMORFISMO!!
+        //SOBRECARGA DE UN MÉTODO: UN MÉTODO TIENE DIFERENTES FORMAS
+        //CUANDO UN MÉTODO TIENE DISTINTAS FORMAS, DISTINTOS CÓDIGOS.
+        //EL MÉTODO DEBE LLAMARSE IGUAL Y TENER DISTINTOS PARÁMETROS Y TIPOS
+        public String GetNombreCompleto()
+        {
+            return this.Nombre + " " + this.Apellidos;
+        }
+        public String GetNombreCompleto(bool ordenacion)
+        {
+            if(ordenacion == true)
+            {
+                return this.Apellidos + ", " + this.Nombre;
+            }
+            else
+            {
+                return this.GetNombreCompleto();
+            }
+        }
+
         #endregion
     }
 }

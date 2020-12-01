@@ -39,6 +39,7 @@ namespace Fundamentos
             //Application.Run(new Form24ControlesEjecucion());
             //Application.Run(new Form25SorteoPrimitiva());
             Application.Run(new Form26PruebaClases());
+            //Application.Run(new Form27MesesClases());
         }
     }
 }

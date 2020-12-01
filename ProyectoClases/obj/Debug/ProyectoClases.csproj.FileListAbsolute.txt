@@ -4,3 +4,8 @@ C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoCl
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.csproj.CoreCompileInputs.cache
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.dll
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.pdb
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\ProyectoClases\bin\Debug\ProyectoClases.dll
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\ProyectoClases\bin\Debug\ProyectoClases.pdb
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.dll
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\ProyectoClases\obj\Debug\ProyectoClases.pdb

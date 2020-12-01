@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lstdatos = new System.Windows.Forms.ListBox();
             this.btncrearpersona = new System.Windows.Forms.Button();
+            this.btncrearempleado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,22 +56,33 @@
             // 
             this.btncrearpersona.Location = new System.Drawing.Point(527, 51);
             this.btncrearpersona.Name = "btncrearpersona";
-            this.btncrearpersona.Size = new System.Drawing.Size(100, 254);
+            this.btncrearpersona.Size = new System.Drawing.Size(124, 123);
             this.btncrearpersona.TabIndex = 2;
             this.btncrearpersona.Text = "Crear persona";
             this.btncrearpersona.UseVisualStyleBackColor = true;
             this.btncrearpersona.Click += new System.EventHandler(this.btncrearpersona_Click);
             // 
+            // btncrearempleado
+            // 
+            this.btncrearempleado.Location = new System.Drawing.Point(528, 181);
+            this.btncrearempleado.Name = "btncrearempleado";
+            this.btncrearempleado.Size = new System.Drawing.Size(123, 124);
+            this.btncrearempleado.TabIndex = 3;
+            this.btncrearempleado.Text = "Crear empleado";
+            this.btncrearempleado.UseVisualStyleBackColor = true;
+            this.btncrearempleado.Click += new System.EventHandler(this.btncrearempleado_Click);
+            // 
             // Form26PruebaClases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 330);
+            this.ClientSize = new System.Drawing.Size(663, 330);
+            this.Controls.Add(this.btncrearempleado);
             this.Controls.Add(this.btncrearpersona);
             this.Controls.Add(this.lstdatos);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form26PruebaClases";
             this.Text = "Form26PruebaClases";
             this.ResumeLayout(false);
@@ -83,5 +95,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstdatos;
         private System.Windows.Forms.Button btncrearpersona;
+        private System.Windows.Forms.Button btncrearempleado;
     }
 }
