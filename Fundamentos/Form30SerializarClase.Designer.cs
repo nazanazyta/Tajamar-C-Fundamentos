@@ -77,6 +77,7 @@
             this.btnleerproducto.TabIndex = 4;
             this.btnleerproducto.Text = "Leer producto";
             this.btnleerproducto.UseVisualStyleBackColor = true;
+            this.btnleerproducto.Click += new System.EventHandler(this.btnleerproducto_Click);
             // 
             // btnguardarproducto
             // 
@@ -86,6 +87,7 @@
             this.btnguardarproducto.TabIndex = 5;
             this.btnguardarproducto.Text = "Guardar producto";
             this.btnguardarproducto.UseVisualStyleBackColor = true;
+            this.btnguardarproducto.Click += new System.EventHandler(this.btnguardarproducto_Click);
             // 
             // lblinfo
             // 
@@ -110,7 +112,7 @@
             this.Controls.Add(this.txtproducto);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form30SerializarClase";
             this.Text = "Form30SerializarClase";
             this.ResumeLayout(false);

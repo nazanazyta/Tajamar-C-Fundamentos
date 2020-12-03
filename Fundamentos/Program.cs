@@ -42,7 +42,9 @@ namespace Fundamentos
             //Application.Run(new Form27MesesClases());
             //Application.Run(new Form28FicherosPlanos());
             //Application.Run(new Form29FicheroProductos());
-            Application.Run(new Form30SerializarClase());
+            //Application.Run(new Form30SerializarClase());
+            //Application.Run(new Form31SerializarColeccion());
+            Application.Run(new Form32SerializarImagen());
         }
     }
 }

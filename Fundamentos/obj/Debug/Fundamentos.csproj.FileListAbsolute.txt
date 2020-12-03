@@ -90,3 +90,8 @@ C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.F
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form28FicherosPlanos.resources
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form29FicheroProductos.resources
 C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form30SerializarClase.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form28FicherosPlanos.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form29FicheroProductos.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form30SerializarClase.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form31SerializarColeccion.resources
+C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form32SerializarImagen.resources

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCoche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Coche>
+    <Marca>Opel</Marca>
+    <Modelo>Astra</Modelo>
+  </Coche>
+  <Coche>
+    <Marca>Seat</Marca>
+    <Modelo>Ibiza</Modelo>
+  </Coche>
+  <Coche>
+    <Marca>Yundai</Marca>
+    <Modelo>Kaskai</Modelo>
+  </Coche>
+  <Coche>
+    <Marca>Opel</Marca>
+    <Modelo>Corsa</Modelo>
+  </Coche>
+</ArrayOfCoche>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Producto>
+    <Nombre>pañuelo</Nombre>
+    <Precio>2</Precio>
+  </Producto>
+  <Producto>
+    <Nombre>abanico</Nombre>
+    <Precio>3</Precio>
+  </Producto>
+  <Producto>
+    <Nombre>pulsera</Nombre>
+    <Precio>6</Precio>
+  </Producto>
+  <Producto>
+    <Nombre>paraguas</Nombre>
+    <Precio>8</Precio>
+  </Producto>
+  <Producto>
+    <Nombre>alfombra</Nombre>
+    <Precio>10</Precio>
+  </Producto>
+</ArrayOfProducto>
