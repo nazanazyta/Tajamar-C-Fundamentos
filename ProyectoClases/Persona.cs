@@ -23,6 +23,9 @@ namespace ProyectoClases
     public class Persona
     {
         #region CONSTRUCTOR
+        //TODO LO QUE PONGAMOS AQUÍ, ENTRE #region Y #endregion,
+        //PODEMOS COLAPSAR Y DESPLEGAR CON EL (-) DE LA IZQUIERDA
+        //
         public Persona ()
         {
             Debug.WriteLine("Constructor Persona Vacío");
@@ -41,9 +44,6 @@ namespace ProyectoClases
         }
         #endregion
         #region PROPIEDADES
-        //TODO LO QUE PONGAMOS AQUÍ, PODEMOS COLAPSAR
-        //Y DESPLEGAR CON EL (-) DE LA IZQUIERDA
-        //
         private Direccion _Domicilio;
         public Direccion Domicilio
         {
@@ -77,8 +77,8 @@ namespace ProyectoClases
             set { this._Nacionalidad = value; }
         }
 
-        //UNA PROPIEDAD INDIZADA CONTIENE MÚLTIPLES ELEMENTOS
-        //NECESITAMOS UN CAMPO PARA MANEJAR LA PROPIEDAD
+        //UNA PROPIEDAD INDIZADA CONTIENE MÚLTIPLES ELEMENTOS.
+        //NECESITAMOS UN CAMPO PARA MANEJAR LA PROPIEDAD.
         //YO QUIERO CREAR UNA PROPIEDAD QUE CONTENGA ESPACIO
         //PARA 5 DESCRIPCIONES DE LA PERSONA.
         private String[] _Descripciones = new String[5];
@@ -90,7 +90,7 @@ namespace ProyectoClases
             set { this._Descripciones[indice] = value; }
         }
 
-        //CAMPOS DE LA CLASE
+        //CAMPOS DE LA CLASE:
         //UN CAMPO SUELE SER PRIVADO Y HERRAMIENTA
         //PARA LA CLASE (ES UNA VARIABLE)
         //  MODIFICADORES DE ACCESO TIENE QUE VER CON
@@ -98,7 +98,7 @@ namespace ProyectoClases
         //public String Nombre;
         //public int Edad;
         //EN VISUAL STUDIO, NO SE CREAN CAMPOS ACCESIBLES,
-        //SIEMPRE SE CREAN PROPIEDADES
+        //SIEMPRE SE CREAN PROPIEDADES.
         //UNA PROPIEDAD ES UN CAMPO, PERO CONTIENE UN CÓDIGO
         //DONDE NOS PERMITE PODER CONTROLAR ELEMENTOS
         //(getter y setter, PERO CON OTRA SINTAXIS)
@@ -113,7 +113,7 @@ namespace ProyectoClases
         //    }
         //}
         //
-        //LAS PROPIEDADES SIEMPRE TENDRÁN UN CAMPO DE CONTROL
+        //LAS PROPIEDADES SIEMPRE TENDRÁN UN CAMPO DE CONTROL.
         //EL CAMPO SERÁ PRIVADO PARA LA CLASE Y SERÁ EL
         //ENCARGADO DE MANEJAR LA PROPIEDAD.
         //SI YO LO DESEO, ASIGNO EL CAMPO, SI NO, NO LO HAGO.

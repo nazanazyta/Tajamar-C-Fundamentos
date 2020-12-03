@@ -86,3 +86,7 @@ C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamento
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form26PruebaClases.resources
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.csproj.CopyComplete
 C:\Users\AlumnoMCSD\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form27MesesClases.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form27MesesClases.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form28FicherosPlanos.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form29FicheroProductos.resources
+C:\Users\Nazaret\Repos\Tajamar-C-Fundamentos\Fundamentos\obj\Debug\Fundamentos.Form30SerializarClase.resources

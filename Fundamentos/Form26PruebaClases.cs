@@ -57,7 +57,12 @@ namespace Fundamentos
             emp.Apellidos = "Apellidos emp";
             this.lstdatos.Items.Add("Datos completos: "
                 + emp.GetNombreCompleto());
-            Empleado empleado = new Empleado("Emp", "EmpApe");
+            //Empleado empleado = new Empleado("Emp", "EmpApe");
+            Director dire = new Director();
+            this.lstdatos.Items.Add("Director: " + dire.GetSalarioMinimo());
+            this.lstdatos.Items.Add("Empleado: " + emp.GetSalarioMinimo());
+            this.lstdatos.Items.Add("Vacaciones Empleado: " + emp.GetVacaciones());
+            this.lstdatos.Items.Add("Vacaciones Director: " + dire.GetVacaciones());
         }
     }
 }
