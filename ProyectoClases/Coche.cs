@@ -10,5 +10,6 @@ namespace ProyectoClases
     {
         public String Marca { get; set; }
         public String Modelo { get; set; }
+        public byte[] Imagen { get; set; }
     }
 }

@@ -37,6 +37,10 @@
             this.btnguardardatos = new System.Windows.Forms.Button();
             this.btnleerdatos = new System.Windows.Forms.Button();
             this.lstcoches = new System.Windows.Forms.ListBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btncargarimagen = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 80);
+            this.label2.Location = new System.Drawing.Point(13, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 25);
             this.label2.TabIndex = 2;
@@ -120,11 +124,41 @@
             this.lstcoches.TabIndex = 9;
             this.lstcoches.SelectedIndexChanged += new System.EventHandler(this.lstcoches_SelectedIndexChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(18, 223);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(345, 266);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btncargarimagen
+            // 
+            this.btncargarimagen.Location = new System.Drawing.Point(391, 375);
+            this.btncargarimagen.Name = "btncargarimagen";
+            this.btncargarimagen.Size = new System.Drawing.Size(204, 52);
+            this.btncargarimagen.TabIndex = 11;
+            this.btncargarimagen.Text = "Cargar imagen";
+            this.btncargarimagen.UseVisualStyleBackColor = true;
+            this.btncargarimagen.Click += new System.EventHandler(this.btncargarimagen_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 182);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(146, 25);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Imagen coche";
+            // 
             // Form32SerializarImagen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 382);
+            this.ClientSize = new System.Drawing.Size(624, 516);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btncargarimagen);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lstcoches);
             this.Controls.Add(this.btnleerdatos);
             this.Controls.Add(this.btnguardardatos);
@@ -135,9 +169,10 @@
             this.Controls.Add(this.txtmarca);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form32SerializarImagen";
             this.Text = "Form32SerializarImagen";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +189,8 @@
         private System.Windows.Forms.Button btnguardardatos;
         private System.Windows.Forms.Button btnleerdatos;
         private System.Windows.Forms.ListBox lstcoches;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btncargarimagen;
+        private System.Windows.Forms.Label label4;
     }
 }

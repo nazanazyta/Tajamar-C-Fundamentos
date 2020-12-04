@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -25,13 +26,21 @@ namespace Fundamentos
             this.coches = new Coches();
         }
 
-        private void btninsertarcoche_Click(object sender, EventArgs e)
+        private async void btninsertarcoche_Click(object sender, EventArgs e)
         {
             Coche coche = new Coche();
             coche.Marca = this.txtmarca.Text;
             coche.Modelo = this.txtmodelo.Text;
+            MemoryStream ms = new MemoryStream();
+            this.pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
+            byte[] aByte = ms.ToArray();
+            coche.Imagen = aByte;
+            await ms.FlushAsync();
+            ms.Close();
             this.coches.Add(coche);
             this.PintarCoches();
+            this.pictureBox1.Image.Dispose();
+            this.pictureBox1.Image = null;
             this.txtmarca.Text = "";
             this.txtmodelo.Text = "";
             this.txtmarca.Focus();
@@ -46,13 +55,18 @@ namespace Fundamentos
             }
         }
 
-        private void lstcoches_SelectedIndexChanged(object sender, EventArgs e)
+        private async void lstcoches_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(this.lstcoches.SelectedIndex != -1)
             {
                 Coche coche = this.coches[this.lstcoches.SelectedIndex];
                 this.txtmarca.Text = coche.Marca;
                 this.txtmodelo.Text = coche.Modelo;
+                MemoryStream ms = new MemoryStream(((byte[])this.coches[this.lstcoches.SelectedIndex].Imagen));
+                Bitmap bm = new Bitmap(ms);
+                this.pictureBox1.Image = bm;
+                await ms.FlushAsync();
+                ms.Close();
             }
         }
 
@@ -87,6 +101,17 @@ namespace Fundamentos
                     reader.Close();
                     this.PintarCoches();
                 }
+            }
+        }
+
+        private void btncargarimagen_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ventana = new OpenFileDialog();
+            if(ventana.ShowDialog() == DialogResult.OK)
+            {
+                String path = ventana.FileName;
+                FileInfo file = new FileInfo(path);
+                this.pictureBox1.Image = Image.FromFile(path);
             }
         }
     }
