@@ -31,6 +31,8 @@ namespace Fundamentos
             Coche coche = new Coche();
             coche.Marca = this.txtmarca.Text;
             coche.Modelo = this.txtmodelo.Text;
+            coche.Color = this.txtcolor.Text;
+            coche.Puertas = int.Parse(this.txtpuertas.Text);
             MemoryStream ms = new MemoryStream();
             this.pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
             byte[] aByte = ms.ToArray();
@@ -43,6 +45,8 @@ namespace Fundamentos
             this.pictureBox1.Image = null;
             this.txtmarca.Text = "";
             this.txtmodelo.Text = "";
+            this.txtcolor.Text = "";
+            this.txtpuertas.Text = "";
             this.txtmarca.Focus();
         }
 
@@ -62,6 +66,8 @@ namespace Fundamentos
                 Coche coche = this.coches[this.lstcoches.SelectedIndex];
                 this.txtmarca.Text = coche.Marca;
                 this.txtmodelo.Text = coche.Modelo;
+                this.txtcolor.Text = coche.Color;
+                this.txtpuertas.Text = coche.Puertas.ToString();
                 MemoryStream ms = new MemoryStream(((byte[])this.coches[this.lstcoches.SelectedIndex].Imagen));
                 Bitmap bm = new Bitmap(ms);
                 this.pictureBox1.Image = bm;
@@ -85,6 +91,10 @@ namespace Fundamentos
                     this.lstcoches.Items.Clear();
                     this.txtmarca.Text = "";
                     this.txtmodelo.Text = "";
+                    this.txtcolor.Text = "";
+                    this.txtpuertas.Text = "";
+                    this.pictureBox1.Image.Dispose();
+                    this.pictureBox1.Image = null;
                 }
             }
         }
